@@ -7,7 +7,7 @@
         <!--宠物-->
         <scene sceneID="r0l-pa-sDx">
             <objects>
-                <viewController id="CHh-ec-t0k" sceneMemberID="viewController">
+                <viewController id="CHh-ec-t0k" customClass="petsViewController" customModule="宠物管家" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hCN-4g-UH1"/>
                         <viewControllerLayoutGuide type="bottom" id="goZ-Ua-c1G"/>
@@ -17,7 +17,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="宠物" id="jbG-DH-B6N"/>
+                    <tabBarItem key="tabBarItem" title="Item" id="NoE-X3-i43"/>
+                    <navigationItem key="navigationItem" title="宠物" id="jbG-DH-B6N">
+                        <barButtonItem key="rightBarButtonItem" systemItem="compose" id="7yc-w5-7h1"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cfp-d8-uht" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

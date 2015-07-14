@@ -7,7 +7,7 @@
         <!--消息-->
         <scene sceneID="noi-kj-IBo">
             <objects>
-                <viewController id="RTx-IU-gXx" sceneMemberID="viewController">
+                <viewController id="RTx-IU-gXx" customClass="msgViewController" customModule="宠物管家" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="5BK-47-z17"/>
                         <viewControllerLayoutGuide type="bottom" id="BZ9-eA-1U1"/>
