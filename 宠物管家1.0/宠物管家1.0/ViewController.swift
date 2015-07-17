@@ -68,7 +68,7 @@ class ViewController: UIViewController {
         self.view.addSubview(mainView)
         
         homeViewController.navigationItem.leftBarButtonItem?.action = Selector("showLeft")
-        homeViewController.navigationItem.rightBarButtonItem?.action = Selector("showRight")
+        
         
         // 绑定 UIPanGestureRecognizer
         let panGesture = homeViewController.panGesture

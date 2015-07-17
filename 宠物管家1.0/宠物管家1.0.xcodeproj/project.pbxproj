@@ -10,6 +10,7 @@
 		2C64F8E11B58EB90006D6EB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C64F8E01B58EB90006D6EB2 /* Main.storyboard */; };
 		2C64F8E51B58EDCF006D6EB2 /* CNScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C64F8E41B58EDCF006D6EB2 /* CNScrollView.m */; };
 		2C64F8E81B58EDE9006D6EB2 /* CNAutoScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C64F8E71B58EDE9006D6EB2 /* CNAutoScrollView.swift */; };
+		2C64F9331B58FD45006D6EB2 /* KxMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C64F9321B58FD45006D6EB2 /* KxMenu.m */; };
 		2CB734B41B57EFB0004523F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB734B31B57EFB0004523F4 /* AppDelegate.swift */; };
 		2CB734BC1B57EFB0004523F4 /* ____1_0.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2CB734BA1B57EFB0004523F4 /* ____1_0.xcdatamodeld */; };
 		2CB734BE1B57EFB0004523F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CB734BD1B57EFB0004523F4 /* Assets.xcassets */; };
@@ -31,6 +32,8 @@
 		2C64F8E41B58EDCF006D6EB2 /* CNScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNScrollView.m; sourceTree = "<group>"; };
 		2C64F8E61B58EDE3006D6EB2 /* CNScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNScrollView.h; sourceTree = "<group>"; };
 		2C64F8E71B58EDE9006D6EB2 /* CNAutoScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNAutoScrollView.swift; sourceTree = "<group>"; };
+		2C64F9321B58FD45006D6EB2 /* KxMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KxMenu.m; sourceTree = "<group>"; };
+		2C64F9341B58FD4C006D6EB2 /* KxMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KxMenu.h; sourceTree = "<group>"; };
 		2CB734B01B57EFB0004523F4 /* 宠物管家1.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "宠物管家1.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CB734B31B57EFB0004523F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CB734BB1B57EFB0004523F4 /* ____1_0.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "____1_0.xcdatamodel"; sourceTree = "<group>"; };
@@ -69,6 +72,15 @@
 			name = tupianlunbo;
 			sourceTree = "<group>";
 		};
+		2C64F9311B58FD27006D6EB2 /* kxmenu */ = {
+			isa = PBXGroup;
+			children = (
+				2C64F9341B58FD4C006D6EB2 /* KxMenu.h */,
+				2C64F9321B58FD45006D6EB2 /* KxMenu.m */,
+			);
+			name = kxmenu;
+			sourceTree = "<group>";
+		};
 		2CB734A71B57EFAF004523F4 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +100,7 @@
 		2CB734B21B57EFB0004523F4 /* 宠物管家1.0 */ = {
 			isa = PBXGroup;
 			children = (
+				2C64F9311B58FD27006D6EB2 /* kxmenu */,
 				2C64F8E21B58EDAF006D6EB2 /* tupianlunbo */,
 				2CB734CA1B57F066004523F4 /* Common.swift */,
 				2CB734B31B57EFB0004523F4 /* AppDelegate.swift */,
@@ -193,6 +206,7 @@
 				2C64F8E81B58EDE9006D6EB2 /* CNAutoScrollView.swift in Sources */,
 				2CB734D71B57F086004523F4 /* ViewController.swift in Sources */,
 				2CB734D61B57F086004523F4 /* PetsViewController.swift in Sources */,
+				2C64F9331B58FD45006D6EB2 /* KxMenu.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

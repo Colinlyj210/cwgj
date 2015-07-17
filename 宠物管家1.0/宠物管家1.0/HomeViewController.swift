@@ -4,6 +4,17 @@ import UIKit
 
 class HomeViewController: UIViewController, CNAutoScrollViewDelegate {
     
+    @IBAction func more(sender: UIBarButtonItem) {
+        var frame = sender.valueForKey("view")?.frame
+        frame?.origin.y += 30
+        
+        KxMenu.showMenuInView(self.view, fromRect: frame!, menuItems: [
+            KxMenuItem("kefu",image: nil ,target:self,action:"moreClicked")
+            ])
+    }
+    func moreClicked(){
+        print("11111")
+    }
     var titleOfOtherPages = ""
     let arr = ["tab1","tab2","tab3","tab4"]
     var autoScrollView: CNAutoScrollView!
@@ -11,7 +22,7 @@ class HomeViewController: UIViewController, CNAutoScrollViewDelegate {
     @IBOutlet var panGesture: UIPanGestureRecognizer!
     override func viewDidLoad() {
         super.viewDidLoad()
-        autoScrollView = CNAutoScrollView(frame: CGRectMake(0, 20, self.view.frame.width, 200))
+        autoScrollView = CNAutoScrollView(frame: CGRectMake(0, (self.navigationController?.navigationBar.frame.height)!, self.view.frame.width, 200))
         autoScrollView.backgroundColor = UIColor.grayColor()
         autoScrollView.delegate = self
         view.addSubview(autoScrollView)

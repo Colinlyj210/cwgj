@@ -103,7 +103,11 @@
                     </view>
                     <navigationItem key="navigationItem" title="首页" id="L2n-Xk-sjs">
                         <barButtonItem key="leftBarButtonItem" image="qq" id="X2w-fB-3sQ"/>
-                        <barButtonItem key="rightBarButtonItem" image="qq" id="sFN-Lg-wuy"/>
+                        <barButtonItem key="rightBarButtonItem" image="qq" id="sFN-Lg-wuy">
+                            <connections>
+                                <action selector="more:" destination="Fx1-dH-sNI" id="FDf-DJ-BvJ"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="panGesture" destination="h3g-3R-WGf" id="gPD-qS-fl9"/>
@@ -113,7 +117,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fFg-uQ-OTZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <panGestureRecognizer minimumNumberOfTouches="1" id="h3g-3R-WGf"/>
             </objects>
-            <point key="canvasLocation" x="1781" y="469"/>
+            <point key="canvasLocation" x="1663" y="460"/>
         </scene>
         <!--Left View Controller-->
         <scene sceneID="oCg-Ep-6dM">
