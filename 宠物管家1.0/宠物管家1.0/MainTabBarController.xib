@@ -8,7 +8,7 @@
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <tabBarController id="XrU-Uj-hhW" customClass="MainTabBarController" customModule="宠物管家1_0" customModuleProvider="target">
             <nil key="simulatedBottomBarMetrics"/>
-            <tabBar key="tabBar" contentMode="scaleToFill" selectedItem="g7Y-gZ-OlY" id="kB0-Vx-X7m">
+            <tabBar key="tabBar" contentMode="scaleToFill" id="kB0-Vx-X7m">
                 <rect key="frame" x="0.0" y="551" width="600" height="49"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -36,7 +36,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" tag="1" systemItem="contacts" id="TsZ-6Z-Axk" userLabel="宠物"/>
+                    <tabBarItem key="tabBarItem" tag="1" title="宠物" image="qq" id="TsZ-6Z-Axk" userLabel="宠物"/>
                 </viewController>
                 <viewController automaticallyAdjustsScrollViewInsets="NO" id="lb8-Sc-hLK" userLabel="消息">
                     <layoutGuides>
@@ -48,7 +48,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" tag="2" title="动态" image="xingxing" id="g7Y-gZ-OlY" userLabel="消息"/>
+                    <tabBarItem key="tabBarItem" tag="2" title="动态" image="qq" id="g7Y-gZ-OlY" userLabel="消息"/>
                     <toolbarItems/>
                 </viewController>
             </viewControllers>
@@ -57,6 +57,5 @@
     </objects>
     <resources>
         <image name="qq" width="30" height="30"/>
-        <image name="xingxing" width="30" height="30"/>
     </resources>
 </document>
