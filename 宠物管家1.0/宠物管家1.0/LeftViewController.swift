@@ -20,6 +20,7 @@ class LeftViewController: UIViewController, UITableViewDelegate, UITableViewData
         
         heightLayoutConstraintOfSettingTableView.constant = Common.screenHeight < 500 ? Common.screenHeight * (568 - 221) / 568 : 347
         self.view.frame = CGRectMake(0, 0, 320 * 0.78, Common.screenHeight)
+
     }
 
     override func didReceiveMemoryWarning() {
