@@ -6,9 +6,27 @@
 // project.
 
 
+// PopMenu
+#define COCOAPODS_POD_AVAILABLE_PopMenu
+#define COCOAPODS_VERSION_MAJOR_PopMenu 2
+#define COCOAPODS_VERSION_MINOR_PopMenu 4
+#define COCOAPODS_VERSION_PATCH_PopMenu 0
+
 // SDCycleScrollView
 #define COCOAPODS_POD_AVAILABLE_SDCycleScrollView
 #define COCOAPODS_VERSION_MAJOR_SDCycleScrollView 1
 #define COCOAPODS_VERSION_MINOR_SDCycleScrollView 3
 #define COCOAPODS_VERSION_PATCH_SDCycleScrollView 0
+
+// XHRealTimeBlur
+#define COCOAPODS_POD_AVAILABLE_XHRealTimeBlur
+#define COCOAPODS_VERSION_MAJOR_XHRealTimeBlur 1
+#define COCOAPODS_VERSION_MINOR_XHRealTimeBlur 7
+#define COCOAPODS_VERSION_PATCH_XHRealTimeBlur 0
+
+// pop
+#define COCOAPODS_POD_AVAILABLE_pop
+#define COCOAPODS_VERSION_MAJOR_pop 1
+#define COCOAPODS_VERSION_MINOR_pop 0
+#define COCOAPODS_VERSION_PATCH_pop 7
 

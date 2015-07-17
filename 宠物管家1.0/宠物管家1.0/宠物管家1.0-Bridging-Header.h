@@ -5,3 +5,5 @@
 #import "KxMenu.h"
 //导入图片轮播
 #import "SDCycleScrollView.h"
+//导入popmenu
+#import "PopMenu.h"
