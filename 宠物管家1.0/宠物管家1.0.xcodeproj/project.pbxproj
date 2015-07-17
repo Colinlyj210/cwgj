@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C64F8E11B58EB90006D6EB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C64F8E01B58EB90006D6EB2 /* Main.storyboard */; };
 		2CB734B41B57EFB0004523F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB734B31B57EFB0004523F4 /* AppDelegate.swift */; };
 		2CB734BC1B57EFB0004523F4 /* ____1_0.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2CB734BA1B57EFB0004523F4 /* ____1_0.xcdatamodeld */; };
 		2CB734BE1B57EFB0004523F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CB734BD1B57EFB0004523F4 /* Assets.xcassets */; };
@@ -20,10 +21,10 @@
 		2CB734D71B57F086004523F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB734D51B57F086004523F4 /* ViewController.swift */; };
 		2CB734D91B57F08B004523F4 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB734D81B57F08B004523F4 /* MainTabBarController.swift */; };
 		2CB734DB1B57F08F004523F4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB734DA1B57F08F004523F4 /* HomeViewController.swift */; };
-		2CB734E01B57F417004523F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CB734DE1B57F417004523F4 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C64F8E01B58EB90006D6EB2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		2CB734B01B57EFB0004523F4 /* 宠物管家1.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "宠物管家1.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CB734B31B57EFB0004523F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CB734BB1B57EFB0004523F4 /* ____1_0.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "____1_0.xcdatamodel"; sourceTree = "<group>"; };
@@ -39,7 +40,6 @@
 		2CB734D51B57F086004523F4 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2CB734D81B57F08B004523F4 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		2CB734DA1B57F08F004523F4 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		2CB734DF1B57F417004523F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +81,7 @@
 				2CB734D01B57F078004523F4 /* MsgViewController.swift */,
 				2CB734CC1B57F06D004523F4 /* LeftViewController.swift */,
 				2CB734CE1B57F073004523F4 /* OtherPageViewController.swift */,
-				2CB734DE1B57F417004523F4 /* Main.storyboard */,
+				2C64F8E01B58EB90006D6EB2 /* Main.storyboard */,
 				2CB734D21B57F080004523F4 /* MainTabBarController.xib */,
 				2CB734BD1B57EFB0004523F4 /* Assets.xcassets */,
 				2CB734BF1B57EFB0004523F4 /* LaunchScreen.storyboard */,
@@ -151,7 +151,7 @@
 				2CB734C11B57EFB0004523F4 /* LaunchScreen.storyboard in Resources */,
 				2CB734D31B57F080004523F4 /* MainTabBarController.xib in Resources */,
 				2CB734BE1B57EFB0004523F4 /* Assets.xcassets in Resources */,
-				2CB734E01B57F417004523F4 /* Main.storyboard in Resources */,
+				2C64F8E11B58EB90006D6EB2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,14 +184,6 @@
 				2CB734C01B57EFB0004523F4 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		2CB734DE1B57F417004523F4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2CB734DF1B57F417004523F4 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -319,6 +311,7 @@
 				2CB734C71B57EFB0004523F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
