@@ -6,15 +6,15 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainTabBarController" customModule="宠物管家1_0" customModuleProvider="target"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tabBarController id="XrU-Uj-hhW" customClass="MainTabBarController" customModule="SwiftSideslipLikeQQ" customModuleProvider="target">
+        <tabBarController id="XrU-Uj-hhW" customClass="MainTabBarController" customModule="宠物管家1_0" customModuleProvider="target">
             <nil key="simulatedBottomBarMetrics"/>
-            <tabBar key="tabBar" contentMode="scaleToFill" id="kB0-Vx-X7m">
+            <tabBar key="tabBar" contentMode="scaleToFill" selectedItem="g7Y-gZ-OlY" id="kB0-Vx-X7m">
                 <rect key="frame" x="0.0" y="551" width="600" height="49"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             </tabBar>
             <viewControllers>
-                <viewController id="uV2-Hv-mrU">
+                <viewController id="uV2-Hv-mrU" userLabel="首页">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ehI-r3-anM"/>
                         <viewControllerLayoutGuide type="bottom" id="UPk-8v-hRr"/>
@@ -24,9 +24,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="消息" image="qq" id="lMT-ca-B7y"/>
+                    <tabBarItem key="tabBarItem" title="消息" image="qq" id="lMT-ca-B7y" userLabel="首页"/>
                 </viewController>
-                <viewController id="QMU-WK-gKN">
+                <viewController id="QMU-WK-gKN" userLabel="宠物">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="2qa-Aj-Qve"/>
                         <viewControllerLayoutGuide type="bottom" id="wVN-M7-kIc"/>
@@ -36,10 +36,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" tag="1" systemItem="contacts" id="TsZ-6Z-Axk"/>
+                    <tabBarItem key="tabBarItem" tag="1" systemItem="contacts" id="TsZ-6Z-Axk" userLabel="宠物"/>
                 </viewController>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="lb8-Sc-hLK">
-                    <tabBarItem key="tabBarItem" tag="2" title="动态" image="xingxing" id="g7Y-gZ-OlY"/>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="lb8-Sc-hLK" userLabel="消息">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Kdf-Gf-XsH"/>
+                        <viewControllerLayoutGuide type="bottom" id="gND-kF-iBF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ztF-FD-Tb9">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" tag="2" title="动态" image="xingxing" id="g7Y-gZ-OlY" userLabel="消息"/>
                     <toolbarItems/>
                 </viewController>
             </viewControllers>
