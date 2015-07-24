@@ -16,8 +16,8 @@ class HomeViewController: UIViewController,SDCycleScrollViewDelegate {
         print("11111")
     }
     var titleOfOtherPages = ""
-    let arr = ["https://ss2.baidu.com/-vo3dSag_xI4khGko9WTAnF6hhy/super/whfpf%3D425%2C260%2C50/sign=a4b3d7085dee3d6d2293d48b252b5910/0e2442a7d933c89524cd5cd4d51373f0830200ea.jpg","https://ss0.baidu.com/-Po3dSag_xI4khGko9WTAnF6hhy/super/whfpf%3D425%2C260%2C50/sign=a41eb338dd33c895a62bcb3bb72e47c2/5fdf8db1cb134954a2192ccb524e9258d1094a1e.jpg"]
-    let ss = ["网络图片1","网络图片2"]
+    let arr = ["http://www.lyj210.cn/cwgj/pic/huli/huli.jpg","http://www.lyj210.cn/cwgj/pic/siyang/siyang.jpg","http://www.lyj210.cn/cwgj/pic/xunlian/xunlian.jpg"]
+    let ss = ["网络图片1","网络图片2","网路图片3"]
     
     @IBOutlet var panGesture: UIPanGestureRecognizer!
     override func viewDidLoad() {
