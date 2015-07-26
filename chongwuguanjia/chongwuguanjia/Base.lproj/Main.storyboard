@@ -57,26 +57,46 @@
                     </view>
                     <navigationItem key="navigationItem" id="Bst-LM-ANI"/>
                     <connections>
-                        <segue destination="OVI-y9-XLJ" kind="show" identifier="toweb" id="Upz-RI-6NE"/>
+                        <segue destination="OVI-y9-XLJ" kind="show" identifier="web" id="q9b-2q-LVJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HaP-CT-3Yj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1999" y="907"/>
         </scene>
-        <!--View Controller-->
+        <!--Web View Controller-->
         <scene sceneID="yah-ye-qvi">
             <objects>
-                <viewController id="OVI-y9-XLJ" sceneMemberID="viewController">
-                    <webView key="view" contentMode="scaleToFill" id="lzU-0F-X7l">
+                <viewController id="OVI-y9-XLJ" customClass="WebViewController" customModule="chongwuguanjia" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cEG-46-jjG"/>
+                        <viewControllerLayoutGuide type="bottom" id="yx2-3n-Ifp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4Gd-a9-UZC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IOR-QU-5Js">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </webView>
+                        <constraints>
+                            <constraint firstItem="IOR-QU-5Js" firstAttribute="height" secondItem="4Gd-a9-UZC" secondAttribute="height" id="fRA-Pm-yMc"/>
+                            <constraint firstItem="IOR-QU-5Js" firstAttribute="centerY" secondItem="4Gd-a9-UZC" secondAttribute="centerY" id="iri-Ew-5tm"/>
+                            <constraint firstItem="IOR-QU-5Js" firstAttribute="width" secondItem="4Gd-a9-UZC" secondAttribute="width" id="p7D-Cb-J7l"/>
+                            <constraint firstItem="IOR-QU-5Js" firstAttribute="centerX" secondItem="4Gd-a9-UZC" secondAttribute="centerX" id="qHZ-uH-aQs"/>
+                            <constraint firstItem="IOR-QU-5Js" firstAttribute="centerX" secondItem="4Gd-a9-UZC" secondAttribute="centerX" id="wDq-pZ-AqP"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="web" destination="IOR-QU-5Js" id="f1N-3h-P92"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jAp-Cr-zaE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2739" y="898"/>
+            <point key="canvasLocation" x="2748" y="907"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="oUG-tc-Ngi">

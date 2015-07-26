@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C9E6C761B6479CB009FD9D1 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9E6C751B6479CB009FD9D1 /* WebViewController.swift */; };
 		2CBEF9491B6468C600573B3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBEF9481B6468C600573B3B /* AppDelegate.swift */; };
 		2CBEF94B1B6468C600573B3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBEF94A1B6468C600573B3B /* ViewController.swift */; };
 		2CBEF94E1B6468C600573B3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CBEF94C1B6468C600573B3B /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		13B4545A2AAA8159E804AC82 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		2C9E6C751B6479CB009FD9D1 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		2CBEF9451B6468C600573B3B /* chongwuguanjia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chongwuguanjia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CBEF9481B6468C600573B3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CBEF94A1B6468C600573B3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 			children = (
 				2CBEF9481B6468C600573B3B /* AppDelegate.swift */,
 				2CBEF95D1B6469EC00573B3B /* PetsViewController.swift */,
+				2C9E6C751B6479CB009FD9D1 /* WebViewController.swift */,
 				2CBEF94A1B6468C600573B3B /* ViewController.swift */,
 				2CBEF94C1B6468C600573B3B /* Main.storyboard */,
 				2CBEF9521B6468C600573B3B /* Assets.xcassets */,
@@ -209,6 +212,7 @@
 				2CBEF9511B6468C600573B3B /* chongwuguanjia.xcdatamodeld in Sources */,
 				2CBEF94B1B6468C600573B3B /* ViewController.swift in Sources */,
 				2CBEF95E1B6469EC00573B3B /* PetsViewController.swift in Sources */,
+				2C9E6C761B6479CB009FD9D1 /* WebViewController.swift in Sources */,
 				2CBEF9491B6468C600573B3B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
