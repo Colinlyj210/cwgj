@@ -57,7 +57,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="Bst-LM-ANI"/>
                     <connections>
-                        <segue destination="OVI-y9-XLJ" kind="show" id="Upz-RI-6NE"/>
+                        <segue destination="OVI-y9-XLJ" kind="show" identifier="toweb" id="Upz-RI-6NE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HaP-CT-3Yj" userLabel="First Responder" sceneMemberID="firstResponder"/>
