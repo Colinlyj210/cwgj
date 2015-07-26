@@ -23,7 +23,7 @@ class HomeViewController: UIViewController,SDCycleScrollViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let sc = SDCycleScrollView(frame: CGRectMake(0, (self.navigationController?.navigationBar.frame.height)!+20, self.view.frame.width, 200), imageURLStringsGroup: nil)
+        let sc = SDCycleScrollView(frame: CGRectMake(0, (self.navigationController?.navigationBar.frame.height)!+20, self.view.frame.width, 415 * self.view.frame.width/650), imageURLStringsGroup: nil)
         dispatch_async(dispatch_get_main_queue()) { () -> Void in
             sc.imageURLStringsGroup = self.arr
         }
