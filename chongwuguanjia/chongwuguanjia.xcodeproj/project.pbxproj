@@ -24,6 +24,7 @@
 		2C3C3ADD1B6640F700DE65EA /* XHPathCover.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3C3AD81B6640F700DE65EA /* XHPathCover.m */; };
 		2C3C3ADE1B6640F700DE65EA /* XHSoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3C3ADA1B6640F700DE65EA /* XHSoundManager.m */; };
 		2C3C3ADF1B6640F700DE65EA /* XHWaterDropRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3C3ADC1B6640F700DE65EA /* XHWaterDropRefresh.m */; };
+		2C3C3AE11B66422000DE65EA /* MsgTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3C3AE01B66422000DE65EA /* MsgTableViewController.swift */; };
 		2C9E6C761B6479CB009FD9D1 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9E6C751B6479CB009FD9D1 /* WebViewController.swift */; };
 		2CBEF9491B6468C600573B3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBEF9481B6468C600573B3B /* AppDelegate.swift */; };
 		2CBEF94B1B6468C600573B3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBEF94A1B6468C600573B3B /* ViewController.swift */; };
@@ -71,6 +72,7 @@
 		2C3C3ADA1B6640F700DE65EA /* XHSoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHSoundManager.m; sourceTree = "<group>"; };
 		2C3C3ADB1B6640F700DE65EA /* XHWaterDropRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHWaterDropRefresh.h; sourceTree = "<group>"; };
 		2C3C3ADC1B6640F700DE65EA /* XHWaterDropRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHWaterDropRefresh.m; sourceTree = "<group>"; };
+		2C3C3AE01B66422000DE65EA /* MsgTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MsgTableViewController.swift; sourceTree = "<group>"; };
 		2C9E6C751B6479CB009FD9D1 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		2CBEF9451B6468C600573B3B /* chongwuguanjia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chongwuguanjia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CBEF9481B6468C600573B3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -181,6 +183,7 @@
 				2CBEF9481B6468C600573B3B /* AppDelegate.swift */,
 				2CBEF95D1B6469EC00573B3B /* PetsViewController.swift */,
 				2C9E6C751B6479CB009FD9D1 /* WebViewController.swift */,
+				2C3C3AE01B66422000DE65EA /* MsgTableViewController.swift */,
 				2CBEF94A1B6468C600573B3B /* ViewController.swift */,
 				2CBEF94C1B6468C600573B3B /* Main.storyboard */,
 				2CBEF9521B6468C600573B3B /* Assets.xcassets */,
@@ -334,6 +337,7 @@
 				2C9E6C761B6479CB009FD9D1 /* WebViewController.swift in Sources */,
 				2C3C3AC71B66406500DE65EA /* MJRefreshGifHeader.m in Sources */,
 				2CBEF9491B6468C600573B3B /* AppDelegate.swift in Sources */,
+				2C3C3AE11B66422000DE65EA /* MsgTableViewController.swift in Sources */,
 				2C3C3ADE1B6640F700DE65EA /* XHSoundManager.m in Sources */,
 				2C3C3AC91B66406500DE65EA /* MJRefreshLegendFooter.m in Sources */,
 				2C3C3ADF1B6640F700DE65EA /* XHWaterDropRefresh.m in Sources */,
