@@ -9,9 +9,39 @@
 import UIKit
 
 class MsgTableViewController: UITableViewController {
-
+    let items = [
+        MenuItem(title: "face", iconName: "post_type_bubble_facebook", glowColor: UIColor.redColor(),index: 0),
+        MenuItem(title: "tsobao", iconName: "post_type_bubble_flickr", glowColor: UIColor.blueColor(),index: 1),
+        MenuItem(title: "sina", iconName: "post_type_bubble_googleplus", glowColor: UIColor.yellowColor(),index: 2)
+            ]
+ 
+    
     @IBAction func addBtn(sender: UIBarButtonItem) {
+        self.tabBarController?.tabBar.hidden = true
+        
+        let menu = PopMenu(frame: self.view.bounds, items: items)
+        menu.menuAnimationType = PopMenuAnimationType.Sina
+        if menu.isShowed{
+            menu.removeFromSuperview()
+            return
+        }
+        menu.didSelectedItemCompletion = { (selectitem :MenuItem!) -> Void in
+            print(selectitem.title)
+            
+            switch selectitem.index{
+            case 0:
+                print(selectitem.index)
+            case 1:
+                print(selectitem.index)
+            case 2:
+                print(selectitem.index)
+            default:
+                break
+            }
+        }
+        menu.showMenuAtView(self.view)
     }
+
     var data = [String]()
     var i = 0
     var head : XHPathCover!
@@ -59,7 +89,7 @@ class MsgTableViewController: UITableViewController {
     func footRefresh(){
         ProgressHUD.show("还有更多内容")
         self.Delay(2, closure: { () -> () in
-            var j = self.i + 10
+            let j = self.i + 10
             for self.i ; self.i < j ; self.i++ {
                 self.data.append("\(self.i)")
             }
@@ -68,7 +98,9 @@ class MsgTableViewController: UITableViewController {
             ProgressHUD.showSuccess("好了啦～～")
         })
     }
-
+    override func viewDidAppear(animated: Bool) {
+        self.tabBarController?.tabBar.hidden = false
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
