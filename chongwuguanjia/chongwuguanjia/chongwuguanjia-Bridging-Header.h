@@ -4,3 +4,6 @@
 
 //导入图片轮播
 #import "SDCycleScrollView.h"
+#import "ProgressHUD.h"
+#import "XHPathCover.h"
+#import "MJRefresh.h"

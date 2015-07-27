@@ -13,10 +13,16 @@ class WebViewController: UIViewController {
     @IBOutlet var web: UIWebView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         let weburl = NSURL(string: url)
         let request = NSURLRequest(URL: weburl!)
-        web.loadRequest(request)
-        // Do any additional setup after loading the view.
+        
+        dispatch_async(dispatch_get_main_queue()) { () -> Void in
+            self.web.loadRequest(request)
+            self.tabBarController?.tabBar.hidden = true
+
+        }
+                // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {

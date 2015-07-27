@@ -60,23 +60,16 @@ class PetsViewController: UIViewController,SDCycleScrollViewDelegate ,UITableVie
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
-    tab
-    
-    // MARK: - Navigation
-    
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "web"{
             if let a = segue.destinationViewController as? WebViewController{
                 a.url = self.url
             }
         }
-        self.tabBarController?.tabBar.hidden = true
-    // Get the new view controller using segue.destinationViewController.
-    // Pass the selected object to the new view controller.
+        //self.tabBarController?.tabBar.hidden = true
+
     }
 
     
