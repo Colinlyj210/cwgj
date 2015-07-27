@@ -10,6 +10,8 @@ import UIKit
 
 class MsgTableViewController: UITableViewController {
 
+    @IBAction func addBtn(sender: UIBarButtonItem) {
+    }
     var data = [String]()
     var i = 0
     var head : XHPathCover!

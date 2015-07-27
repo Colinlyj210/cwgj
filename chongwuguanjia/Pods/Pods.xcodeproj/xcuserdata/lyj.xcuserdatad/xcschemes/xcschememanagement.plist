@@ -4,12 +4,27 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-SDCycleScrollView.xcscheme</key>
+		<key>Pods.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods.xcscheme</key>
+		<key>PopMenu.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SDCycleScrollView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>XHRealTimeBlur.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>pop.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -17,12 +32,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>22B98B142CB4D10E31875B69</key>
+		<key>2D1CDB36D75C32CCDFFBA050CAAD4940</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7BEA27536984FFF27B5DAB76</key>
+		<key>47C800E42623009B7192B025B3DD25A1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8CEB55D34A1113BE8ECA1EB1E24C8F03</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AE478D4F58963F81F34E4690297A3D45</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B7D1247F0660EE6DA6EBA56AF1B44D11</key>
 		<dict>
 			<key>primary</key>
 			<true/>
