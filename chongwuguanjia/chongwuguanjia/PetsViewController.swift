@@ -68,7 +68,8 @@ class PetsViewController: UIViewController,SDCycleScrollViewDelegate ,UITableVie
                 a.url = self.url
             }
         }
-        //self.tabBarController?.tabBar.hidden = true
+        self.hidesBottomBarWhenPushed = true
+        self.tabBarController?.tabBar.hidden = true
 
     }
 
