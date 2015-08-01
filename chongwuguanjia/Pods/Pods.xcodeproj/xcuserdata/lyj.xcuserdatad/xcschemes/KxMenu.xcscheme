@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8080C1F9B8C99926288EA03E"
-               BuildableName = "libSDCycleScrollView.a"
-               BlueprintName = "SDCycleScrollView"
+               BlueprintIdentifier = "52F5B165086A4A2F275C0907"
+               BuildableName = "libKxMenu.a"
+               BlueprintName = "KxMenu"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

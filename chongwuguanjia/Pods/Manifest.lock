@@ -1,4 +1,5 @@
 PODS:
+  - KxMenu (1)
   - pop (1.0.7)
   - PopMenu (2.4):
     - pop
@@ -7,10 +8,12 @@ PODS:
   - XHRealTimeBlur (1.7)
 
 DEPENDENCIES:
+  - KxMenu
   - PopMenu
   - SDCycleScrollView
 
 SPEC CHECKSUMS:
+  KxMenu: c025365712f55fa99feb7830fbb7dea0e912be72
   pop: 628ffc631644601567ee8bfaaaea493ebd7d0923
   PopMenu: 26b97baeaf250070f4f61b93727ca86d127d7bc5
   SDCycleScrollView: 90e43636fcc8e6a7f74e8b64d87418a8e96549b4

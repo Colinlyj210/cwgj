@@ -25,6 +25,7 @@ class MsgTableViewController: UITableViewController {
             menu.removeFromSuperview()
             return
         }
+        
         menu.didSelectedItemCompletion = { (selectitem :MenuItem!) -> Void in
             print(selectitem.title)
             
@@ -36,10 +37,13 @@ class MsgTableViewController: UITableViewController {
             case 2:
                 print(selectitem.index)
             default:
+                menu.removeFromSuperview()
                 break
+            
             }
         }
         menu.showMenuAtView(self.view)
+        
     }
 
     var data = [String]()
