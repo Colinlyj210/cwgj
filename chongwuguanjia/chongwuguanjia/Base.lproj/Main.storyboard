@@ -64,6 +64,7 @@
         <scene sceneID="oUG-tc-Ngi">
             <objects>
                 <tabBarController id="SlL-vx-wp6" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="ohm-ol-Gji"/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="dtZ-UL-aln">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
@@ -108,7 +109,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eb8-ja-nfp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="794" y="-288"/>
+            <point key="canvasLocation" x="1226" y="-304"/>
         </scene>
         <!--宠物-->
         <scene sceneID="rNV-Z1-77U">
@@ -181,7 +182,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TLI-7U-NAK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-30" y="-268"/>
+            <point key="canvasLocation" x="442" y="-320"/>
         </scene>
         <!--设置-->
         <scene sceneID="ULn-Mx-UEO">
@@ -400,6 +401,9 @@
                                 <state key="normal" title="登录">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="SlL-vx-wp6" kind="push" id="IaG-Af-Oe9"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kT3-3A-5Tc">
                                 <rect key="frame" x="20" y="562" width="75" height="30"/>
