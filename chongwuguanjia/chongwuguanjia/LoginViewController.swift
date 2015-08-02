@@ -12,7 +12,7 @@ class LoginViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        print("aa")
         // Do any additional setup after loading the view.
     }
     override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
