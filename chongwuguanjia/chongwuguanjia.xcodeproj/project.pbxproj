@@ -34,6 +34,8 @@
 		2CBEF9561B6468C600573B3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CBEF9541B6468C600573B3B /* LaunchScreen.storyboard */; };
 		2CBEF95E1B6469EC00573B3B /* PetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBEF95D1B6469EC00573B3B /* PetsViewController.swift */; };
 		2CBEF9601B646BB800573B3B /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 2CBEF95F1B646BB800573B3B /* Podfile */; };
+		2CC87EFE1B6DA430007AFE55 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC87EFD1B6DA430007AFE55 /* LoginViewController.swift */; };
+		2CC87F001B6DAC2E007AFE55 /* RegTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC87EFF1B6DAC2E007AFE55 /* RegTableViewController.swift */; };
 		FC6FEAB5A886E1C6A1E33EE0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BACF9AF579F1E89D438F0DD /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -85,6 +87,8 @@
 		2CBEF95D1B6469EC00573B3B /* PetsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetsViewController.swift; sourceTree = "<group>"; };
 		2CBEF95F1B646BB800573B3B /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2CBEF9611B646D3400573B3B /* chongwuguanjia-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "chongwuguanjia-Bridging-Header.h"; sourceTree = "<group>"; };
+		2CC87EFD1B6DA430007AFE55 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2CC87EFF1B6DAC2E007AFE55 /* RegTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegTableViewController.swift; sourceTree = "<group>"; };
 		6BACF9AF579F1E89D438F0DD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		902AB8479792052A90F09A87 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -182,10 +186,12 @@
 				2C3C3AAB1B66402800DE65EA /* MJRefresh */,
 				2CBEF9481B6468C600573B3B /* AppDelegate.swift */,
 				2CBEF95D1B6469EC00573B3B /* PetsViewController.swift */,
+				2CC87EFD1B6DA430007AFE55 /* LoginViewController.swift */,
 				2C9E6C751B6479CB009FD9D1 /* WebViewController.swift */,
 				2C3C3AE01B66422000DE65EA /* MsgTableViewController.swift */,
 				2CBEF94A1B6468C600573B3B /* ViewController.swift */,
 				2CBEF94C1B6468C600573B3B /* Main.storyboard */,
+				2CC87EFF1B6DAC2E007AFE55 /* RegTableViewController.swift */,
 				2CBEF9521B6468C600573B3B /* Assets.xcassets */,
 				2CBEF9541B6468C600573B3B /* LaunchScreen.storyboard */,
 				2CBEF9571B6468C600573B3B /* Info.plist */,
@@ -330,7 +336,9 @@
 				2C3C3AC31B66406500DE65EA /* MJRefreshComponent.m in Sources */,
 				2C3C3ACA1B66406500DE65EA /* MJRefreshLegendHeader.m in Sources */,
 				2C3C3ACD1B66406500DE65EA /* UIView+MJExtension.m in Sources */,
+				2CC87F001B6DAC2E007AFE55 /* RegTableViewController.swift in Sources */,
 				2C3C3AC41B66406500DE65EA /* MJRefreshConst.m in Sources */,
+				2CC87EFE1B6DA430007AFE55 /* LoginViewController.swift in Sources */,
 				2C3C3ACC1B66406500DE65EA /* UIScrollView+MJRefresh.m in Sources */,
 				2CBEF95E1B6469EC00573B3B /* PetsViewController.swift in Sources */,
 				2C3C3ADD1B6640F700DE65EA /* XHPathCover.m in Sources */,
